@@ -715,7 +715,7 @@ h3 {
 }
 h1 {
     font-size: 2.077em; /* gs */
-    margin: 0.922em 0 0.461em 0; /* 0.5u */
+    margin: 0.667em 0; /* 1u */
 }
 h2 {
     font-size: 1.385em; /* gs */
@@ -1304,7 +1304,7 @@ input[type="color"],
 .uneditable-input {
   display: inline-block;
   height: 1.385em;
-  padding: 3px 6px; /* gs */
+  padding: 4px 6px 3px 6px; /* gs */
   margin-bottom: 0.6925em;
   font-size: 13px;
   line-height: 1.385;
@@ -2086,7 +2086,7 @@ legend + .control-group {
   /* IE7 inline-block hack */
 
   *zoom: 1;
-  padding: 4px 12px;
+  padding: 4px 0.615em 3px 0.615em; /*gs: 1 + 4 + 18 + 3 + 1 = 27px = 1.5u */
   margin-bottom: 0;
   font-size: 13px;
   line-height: 1.385;
