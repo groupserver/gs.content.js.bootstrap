@@ -4,7 +4,7 @@
   i18n_domain="groupserver">
 
   <browser:resourceDirectory 
-    name="bootstrap-2.2.2"
+    name="bootstrap-2.3.0"
     directory="browser" 
     permission="zope2.Public" />
 
