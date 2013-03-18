@@ -32,6 +32,7 @@ setup(name='gs.content.js.bootstrap',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'zope.browserresource',
         'gs.content.js.jquery',
     ],
     entry_points="""
