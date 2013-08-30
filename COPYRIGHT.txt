@@ -1,0 +1,2 @@
+The Bootstrap JavaScript, CSS, and images are copyright 2012 Twitter Inc.
+The egg (gs.content.js.bootstrap) copyright OnlineGroups.net and contributors.
