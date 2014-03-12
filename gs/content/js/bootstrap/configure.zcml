@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configure xmlns="http://namespaces.zope.org/zope"
-  xmlns:browser="http://namespaces.zope.org/browser"
-  i18n_domain="groupserver">
+           xmlns:browser="http://namespaces.zope.org/browser"
+           i18n_domain="groupserver">
 
-  <browser:resourceDirectory 
+  <browser:resourceDirectory
+    name="bootstrap-2.3.2"
+    directory="browser"
+    permission="zope2.Public" />
+  <browser:resourceDirectory
     name="bootstrap-2.3.0"
-    directory="browser" 
+    directory="browser"
     permission="zope2.Public" />
 
 </configure>
-
